@@ -1,1 +1,28 @@
 TODO: List here all the changes you made to given template to adapt it to your needs
+-for the two sections I addedthe classes section and the resources section
+
+1. I added my own bootsrap icons to the services section for example the 
+cap makes sense for the learning journey section. 
+
+2. In the testimonials section I changed the quotes of clients to explain some earlier projects
+I did and made the image a symbol of the language I used for the assignment.
+
+3. I also made it so the images are buttons in the testimonial and so they become grayscale.
+
+4. In the get started section I switched the side of the form to the left, because I thought it look more visually pleasing to me. 
+
+5. I added a darker box-shadow to the the portfolio project images/boxes, because I thought it would give the page more depth
+and make the boxes less static.
+
+6. I changed the comapnies/corporations to socials and some professional ones like linkedin.
+
+7. I made it so all the tabs and buttons would go to the poper sections of the website.
+
+8. I connected my projects to the links at the bottom and the list group in the sectoin that I added.
+
+9. I got rid of the box-shadow on the form in the get started section, and made the box next to it with the colaboration 
+information have a shadow-sm just becausse I thought this section didn't need it so it would contrast the 
+portfolio images which I put on a the darker box-shadow.
+
+10. I changed the main logo on the nav-bar to a colorful folder which made me think of a portfolio so I thought it would
+make more sense.

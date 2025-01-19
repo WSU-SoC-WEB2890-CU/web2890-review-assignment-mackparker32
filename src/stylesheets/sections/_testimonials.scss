@@ -1,8 +1,7 @@
-@use '../custom'as *;
-@use '../components/mixins'as *;
+@use "../custom" as *;
+@use "../components/mixins" as *;
 
 .testimonials {
-  position: relative;
   padding: 0;
   @include gradient;
 
@@ -33,8 +32,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
-    img {
-      border: 0.325rem solid rgba($primary, 0.7);
+    a {
+      img:hover {
+        filter: grayscale(120);
+      }
+
+      img {
+        border: 0.325rem solid rgba($primary, 0.7);
+      }
     }
   }
 

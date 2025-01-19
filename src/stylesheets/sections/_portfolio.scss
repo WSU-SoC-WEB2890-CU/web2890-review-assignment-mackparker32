@@ -1,5 +1,5 @@
-@use '../custom'as *;
-@use '../components/mixins'as *;
+@use "../custom" as *;
+@use "../components/mixins" as *;
 
 .portfolio {
   padding: 4rem 0;
@@ -16,6 +16,7 @@
   overflow: hidden;
   margin-bottom: 1.2rem;
   border-top: 0.5rem solid lighten($primary, 20%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 
   img {
     width: 100%;
@@ -45,7 +46,6 @@
   }
 
   &:hover {
-
     img {
       transform: scale(1.5);
       @include transitionProperty;
